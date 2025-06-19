@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83746503-e5d8-46ec-9a4d-430602c3de48" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/NoMoreICE.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/chunks/chunks_eng.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/chunks/chunks_es.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/finetune/llama_finetune_4000examples.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/finetune/llama_finetune_4000examples_clean_v2.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/finetune/llama_finetune_500examples.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/finetune/llama_finetune_dataset.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/finetune/llama_finetune_subset.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/metadata/metadata_eng.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/metadata/metadata_es.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/Emergency_prep/Emergency_prep.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/Emergency_prep/Emergency_prep.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/ICE_Ruses/ICE_Ruses.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/ICE_Ruses/ICE_Ruses.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/ICE_activity/ICE_Activity.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/ICE_activity/ICE_Activity.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/ICE_at_my_door/ICE_at_my_door.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/ICE_at_my_door/ICE_at_my_door.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/ICE_car_stops/ICE_car_stops.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/ICE_car_stops/ICE_car_stops.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/ICE_in_my_home/ICE_in_my_home.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/ICE_in_my_home/ICE_in_my_home.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/ICE_on_streets/ICE_on_streets.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/ICE_on_streets/ICE_on_streets.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/ICE_pulls_you_over/ICE_pulls_you_over.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/ICE_pulls_you_over/ICE_pulls_you_over.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/ICE_raids/ICE_raids.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/ICE_raids/ICE_raids.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/ICE_raids_101/ICE_raids_101.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/ICE_raids_101/ICE_raids_101.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/ICE_raids_track/ICE_rais_track.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/eng/ICE_raids_track/ICE_rais_track.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/ICE_Actividad/ICE_Actividad.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/ICE_Actividad/ICE_Actividad.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/ICE_basicos_redadas/ICE_basicos_redadas.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/ICE_basicos_redadas/ICE_basicos_redadas.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/ICE_detencion_de_auto/ICE_detencion_de_auto.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/ICE_detencion_de_auto/ICE_detencion_de_auto.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/ICE_en_la_puerta/ICE_en_la_puerta.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/ICE_en_la_puerta/ICE_en_la_puerta.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/ICE_en_las_calles/ICE_en_las_calles.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/ICE_en_las_calles/ICE_en_las_calles.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/ICE_en_mi_casa/ICE_en_mi_casa.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/ICE_en_mi_casa/ICE_en_mi_casa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/ICE_me_detuvo_en_auto/ICE_de_detuvo_en_auto.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/ICE_me_detuvo_en_auto/ICE_de_detuvo_en_auto.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/ICE_presencia/ICE_presencia.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/ICE_presencia/ICE_presencia.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/ICE_redadas/ICE_redadas.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/ICE_redadas/ICE_redadas.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/ICE_trucos/ICE_trucos.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/ICE_trucos/ICE_trucos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/Preparacion_emergencia/Preparate_emergencia.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/esp/Preparacion_emergencia/Preparate_emergencia.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_prep/OCR.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_prep/chunks_meta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluation/eval_questions.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluation/eval_questions_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluation/eval_responses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluation/generate_eval_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluation/generated_vs_reference.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inference/infer_single.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inference/streamlit_app_lora.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_adapters/adapter_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_adapters/adapter_model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-57/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-57/adapter_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-57/adapter_model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-57/added_tokens.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-57/merges.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-57/optimizer.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-57/rng_state.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-57/scheduler.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-57/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-57/tokenizer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-57/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-57/trainer_state.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-57/training_args.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-57/vocab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-95/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-95/adapter_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-95/adapter_model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-95/added_tokens.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-95/merges.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-95/optimizer.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-95/rng_state.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-95/scheduler.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-95/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-95/tokenizer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-95/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-95/trainer_state.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-95/training_args.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/phi2_lora_output/checkpoint-95/vocab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/generate_datasel_lora.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-100/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-100/adapter_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-100/adapter_model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-100/added_tokens.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-100/merges.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-100/optimizer.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-100/rng_state.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-100/scheduler.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-100/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-100/tokenizer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-100/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-100/trainer_state.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-100/training_args.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-100/vocab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-50/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-50/adapter_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-50/adapter_model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-50/added_tokens.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-50/merges.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-50/optimizer.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-50/rng_state.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-50/scheduler.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-50/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-50/tokenizer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-50/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-50/trainer_state.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-50/training_args.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora/checkpoint-50/vocab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora_adapters/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora_adapters/adapter_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_defense_lora_adapters/adapter_model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_lora_adapters/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_lora_adapters/adapter_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_lora_adapters/adapter_model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_lora_output/checkpoint-9/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_lora_output/checkpoint-9/adapter_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_lora_output/checkpoint-9/adapter_model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_lora_output/checkpoint-9/added_tokens.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_lora_output/checkpoint-9/merges.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_lora_output/checkpoint-9/optimizer.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_lora_output/checkpoint-9/rng_state.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_lora_output/checkpoint-9/scheduler.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_lora_output/checkpoint-9/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_lora_output/checkpoint-9/tokenizer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_lora_output/checkpoint-9/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_lora_output/checkpoint-9/trainer_state.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_lora_output/checkpoint-9/training_args.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/models/phi2_lora_output/checkpoint-9/vocab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/train_phi2_lora.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/training/train_phi2_lora.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2yf6URkXwDEenjcWE7ygQbRA4S6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.eval_questions_template.executor": "Run",
+    "Python.eval_responses.executor": "Run",
+    "Python.generate_datasel_lora.executor": "Run",
+    "Python.generate_eval_file.executor": "Run",
+    "Python.infer_single.executor": "Run",
+    "Python.streamlit_app_lora.executor": "Run",
+    "Python.train_phi2_lora.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/leocp/PycharmProjects/NoMoreICE/data/processed/finetune",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leocp\PycharmProjects\NoMoreICE\data\processed\finetune" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-PY-251.26094.141" />
+        <option value="bundled-python-sdk-9f8e2b94138c-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26094.141" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83746503-e5d8-46ec-9a4d-430602c3de48" name="Changes" comment="" />
+      <created>1750213295387</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750213295387</updated>
+      <workItem from="1750213296479" duration="21437000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data_prep/chunks_meta.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NoMoreICE$streamlit_app_lora.coverage" NAME="streamlit_app_lora Coverage Results" MODIFIED="1750216950051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inference" />
+    <SUITE FILE_PATH="coverage/NoMoreICE$generate_datasel_lora.coverage" NAME="generate_datasel_lora Coverage Results" MODIFIED="1750276069488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/training" />
+    <SUITE FILE_PATH="coverage/NoMoreICE$eval_responses.coverage" NAME="eval_responses Coverage Results" MODIFIED="1750290507691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/evaluation" />
+    <SUITE FILE_PATH="coverage/NoMoreICE$train_phi2_lora.coverage" NAME="train_phi2_lora Coverage Results" MODIFIED="1750291054117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/training" />
+    <SUITE FILE_PATH="coverage/NoMoreICE$generate_eval_file.coverage" NAME="generate_eval_file Coverage Results" MODIFIED="1750289432737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/evaluation" />
+    <SUITE FILE_PATH="coverage/NoMoreICE$eval_questions_template.coverage" NAME="eval_questions_template Coverage Results" MODIFIED="1750289414971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/evaluation" />
+    <SUITE FILE_PATH="coverage/NoMoreICE$infer_single.coverage" NAME="infer_single Coverage Results" MODIFIED="1750314925769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inference" />
+  </component>
+</project>
